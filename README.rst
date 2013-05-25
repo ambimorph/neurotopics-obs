@@ -11,7 +11,7 @@ Introduction
 ============
 
 Neurotopics is a topic modelling tool for `NeuroSynth`_.
-We will take a Neurosynth dataset, a brain atlas in nifti or analyze
+We will take a Neurosynth dataset, a brain atlas in NIFTI or Analyze
 format, and a file containing word frequency counts for all words in
 the documents of the dataset.
 For each ROI in the atlas, we will generate a distribution on a subset of the words.
