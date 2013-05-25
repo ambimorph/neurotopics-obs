@@ -3,7 +3,7 @@ Neurotopics
 
 Authors: Jessica Mollick, Tim Rubin, L. Amber Wilcox-O'Hearn
 
-Contact: jmollick@gmail.com, trubin@uci.edu, amber@cs.toronto.edu
+Contact: jmollick@gmail.com, timrubin@indiana.edu, amber@cs.toronto.edu
 
 Released under the GNU AFFERO GENERAL PUBLIC LICENSE, see COPYING file for details.
 
