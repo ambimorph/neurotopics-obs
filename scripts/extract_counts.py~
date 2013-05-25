@@ -1,0 +1,9 @@
+import sys, pickle
+
+feature_file_name, database_file_name, pickle_file_name = sys.argv()[1:4]
+
+features = [x.split() for x in open(feature_file_name, 'r').readlines()]
+database = [x.split() for x in open(database_file_name, 'r').readlines()[0].split('\r')]
+dataset = pickle.load(open(pickle_file_name, 'r'))
+
+
