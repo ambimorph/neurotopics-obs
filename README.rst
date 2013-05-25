@@ -2,13 +2,15 @@ Neurotopics
 ===========
 
 Authors: Jessica Mollick, Tim Rubin, L. Amber Wilcox-O'Hearn
+
 Contact: jmollick@gmail.com, trubin@uci.edu, amber@cs.toronto.edu
+
 Released under the GNU AFFERO GENERAL PUBLIC LICENSE, see COPYING file for details.
 
 Introduction
 ============
 
-Neurotopics is a topic modelling tool for NeuroSynth.
+Neurotopics is a topic modelling tool for `NeuroSynth`_.
 We will take a Neurosynth dataset, a brain atlas in nifti or analyze
 format, and a file containing word frequency counts for all words in
 the documents of the dataset.
@@ -18,7 +20,7 @@ Dependencies
 ============
 
 * Python
-* NeuroSynth
+* `NeuroSynth`_
 
 
-
+.. _NeuroSynth: https://github.com/NeuroSynth
