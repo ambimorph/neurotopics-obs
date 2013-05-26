@@ -29,4 +29,4 @@ if __name__ == '__main__':
     word_counts_file = sys.argv[3]
     neurosynth_dataset = pickle.load(open(pickle_file_name, 'rb'))
 
-    dataset = Dataset(neurosynth_dataset, image_file_name, word_counts_file)
+    dataset = DataSet(neurosynth_dataset, image_file_name, word_counts_file)
