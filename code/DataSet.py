@@ -14,6 +14,9 @@ class DataSet:
     def __init__(self, neurosynth_dataset, image_file_name, word_counts_file):
 
         self.word_subset = neurosynth_dataset.get_feature_names()
+        self.word_string_to_index = {}
+        for i in range(len(self.word_subset)):
+            self.word_string_to_index[self.word_subset[i]] = i
         self.dois = list(neurosynth_dataset.feature_table.ids)
         self.average_activation = nsar.average_within_regions(neurosynth_dataset, image_file_name)
         self.get_word_subset_counts(self.word_subset, word_counts_file)
