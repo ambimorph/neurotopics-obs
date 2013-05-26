@@ -15,6 +15,7 @@ f = open(atlas_labels,'r')
 names = f.readlines()
 names = [x.strip('\n') for x in names]
 
+
 #load the atlas file with nibabel (just for reference)
 #img = nibabel.load(atlas_file)
 #data = img.get_data()
