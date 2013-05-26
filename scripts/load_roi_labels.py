@@ -9,7 +9,8 @@ dataset = pickle.load(open(pickle_file_name, 'r'))
 atlas_file = 'allvoxel/atlas_labels_combined.img'
 atlas_labels = 'allvoxel/names.txt'
 
-res = nr.average_within_regions(dataset,atlas_file,threshold=0.01)
+
+res = nr.average_within_regions(dataset,atlas_file)
 f = open(atlas_labels,'r')
 names = f.readlines()
 names = [x.strip('\n') for x in names]
