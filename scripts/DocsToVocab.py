@@ -46,9 +46,8 @@ class DocsToVocab:
 
 
 if __name__ == '__main__':
-    full_text_file_obj = open(sys.argv[1], 'rb')
     document_output_file_obj = open(sys.argv[2], 'wb')
     vocabulary_output_file_obj = open(sys.argv[3], 'wb')
 
-    dtv = DocsToVocab(full_text_file_obj, document_output_file_obj, vocabulary_output_file_obj)
+    dtv = DocsToVocab(sys.argv[1], document_output_file_obj, vocabulary_output_file_obj)
     dtv.docs_to_vocab()
